@@ -1,5 +1,7 @@
 package classes;
 
+import java.util.Scanner;
+
 public class BerufsschulLehrer extends Lehrer {
     private String beruf;
 
