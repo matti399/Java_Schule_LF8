@@ -13,9 +13,9 @@ public class Schueler extends Person {
         this.schuelerClass = schuelerClass;
     }
 
-    public Schueler(String Vorname, String Nachname) {
-        this.setVorname(Vorname);
-        this.setNachname(Nachname);
+    public Schueler(String vorname, String nachname) {
+        this.setVorname(vorname);
+        this.setNachname(nachname);
         this.setSchuelerClass("IT22/6");
     }
 

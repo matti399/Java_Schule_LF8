@@ -14,7 +14,7 @@ public class Lehrer extends Person {
     }
 
     public Lehrer() {
-        this.setLehrerSubject("LF8");
+        this("LF8");
     }
 
     public void printIDCard() {

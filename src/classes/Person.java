@@ -32,14 +32,13 @@ public class Person {
     }
 
     public Person() {
-        vorname = "Max";
-        nachname = "Muster";
-        dob = "30.03.1999";
+        this("Max", "Muster", "30.03.1999");
     }
 
-    public Person(String vorname, String nachname) {
+    public Person(String vorname, String nachname, String dob) {
         this.vorname = vorname;
         this.nachname = nachname;
+        this.dob = dob;
     }
 
     public void printIDCard() {
