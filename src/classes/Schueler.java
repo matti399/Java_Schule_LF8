@@ -13,10 +13,10 @@ public class Schueler extends Person {
         this.schuelerClass = schuelerClass;
     }
 
-    public Schueler(String vorname, String nachname) {
+    public Schueler(String vorname, String nachname, String schuelerClass) {
         this.setVorname(vorname);
         this.setNachname(nachname);
-        this.setSchuelerClass("IT22/6");
+        this.setSchuelerClass(schuelerClass);
     }
 
     public void printIDCard() {

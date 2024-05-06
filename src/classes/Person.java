@@ -33,6 +33,7 @@ public class Person {
 
     public Person() {
         this("Max", "Muster", "30.03.1999");
+        this.getData();
     }
 
     public Person(String vorname, String nachname, String dob) {

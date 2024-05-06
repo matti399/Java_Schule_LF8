@@ -17,6 +17,10 @@ public class Lehrer extends Person {
         this("LF8");
     }
 
+    public Lehrer(String lehrerSubject) {
+        this.setLehrerSubject(lehrerSubject);
+    }
+
     public void printIDCard() {
         super.printIDCard();
         System.out.println("Fach ist: " + getLehrerSubject());
